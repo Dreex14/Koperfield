@@ -1,0 +1,23 @@
+# Ejecutables compilados (se publican en Releases, no en el código)
+Koperfield/
+*.exe
+build/
+build_tmp/
+dist/
+*.spec
+
+# Programa original y versiones anteriores (no son de este repositorio)
+a parte/
+esconder_personalizado.pyw
+configurar_esconder.pyw
+
+# Configuración y estado personal
+koperfield_config.json
+koperfield_escondidas.json
+esconder_config.json
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
